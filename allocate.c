@@ -34,9 +34,7 @@ void print_alloc(size_t total);
  * @brief prints a help message.
  */
 void print_help() {
-    printf("Usage: allocate SIZE [COUNT] [TIME]\n");
-    printf("creates COUNT (default: 1) memory allocations of SIZE, with "
-            "[TIME] (default: 1) sec of sleep between each allocation.\n\n");
+    printf("Usage: ./alloc [options]\nOptions:\n");
 
     printf("  -m \t specifies the size (mb) of allocations\n");
     printf("  -c \t specifies the number of allocations\n");
