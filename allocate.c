@@ -25,8 +25,10 @@
 #include<getopt.h>
 
 static bool verbose = false;
-
 static const size_t MB = 1024l * 1024l;
+
+void print_help(void);
+void print_alloc(size_t total);
 
 /**
  * @brief prints a help message.
@@ -160,3 +162,4 @@ int main(int argc, char **argv) {
 
     return 0;
 }
+
