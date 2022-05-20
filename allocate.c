@@ -93,8 +93,8 @@ int main(int argc, char **argv) {
                 return 0;
 
             default:
-                printf("Invalid argument: %c\n", opt);
-                return 1;
+                printf("Try \'./alloc -h\' for more information");
+                return 0;
         }
     }
 
